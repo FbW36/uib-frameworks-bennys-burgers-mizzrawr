@@ -1,2 +1,20 @@
 // This is where you can import other stylesheets or write your scss code
+$primary: rgb(122, 68, 254);
+$jumbotron-bg: none;
+@import url("https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap");
+@import "variables";
+
 @import "../../node_modules/bootstrap/scss/bootstrap";
+
+@import "./header";
+@import "font";
+@import "icons";
+@import "cards";
+
+footer {
+  background-color: black;
+}
+
+.minwidth {
+  min-width: 1200px;
+}
